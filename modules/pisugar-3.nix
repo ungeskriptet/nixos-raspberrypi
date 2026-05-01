@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  imports = [ ./configtxt-config.nix ];
+
   nixpkgs.overlays = [
     (self: super: {
       linuxPackages = super.linuxPackages.extend (
