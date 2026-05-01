@@ -6,6 +6,8 @@
 }:
 
 {
+  imports = [ ./configtxt-config.nix ];
+
   environment.systemPackages = with pkgs; [
     bluez
     bluez-tools
