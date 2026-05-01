@@ -6,6 +6,7 @@
 }:
 
 {
+  imports = [ ./configtxt-config.nix ];
   hardware.raspberry-pi.config.all.dt-overlays = {
     dwc2 = {
       enable = true;
