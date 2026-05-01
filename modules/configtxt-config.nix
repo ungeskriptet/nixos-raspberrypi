@@ -90,7 +90,7 @@ in
                   str
                   bool
                 ];
-              description = "config.txt value.";
+              #description = "config.txt value.";
             };
           };
         };
