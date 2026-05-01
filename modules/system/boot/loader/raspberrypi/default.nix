@@ -404,6 +404,7 @@ in
       };
 
       ubootPackage = lib.mkOption {
+        description = "The U-Boot package to use.";
         default =
           {
             "0" = {
